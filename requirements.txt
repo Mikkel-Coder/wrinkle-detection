@@ -1,0 +1,19 @@
+pillow
+
+# PyToch using NVIDIA CUDA TM
+torch 
+torchvision 
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu123 # Check your CUDA version with: nvidia-smi
+
+# Facebook SMA
+git+https://github.com/facebookresearch/segment-anything.git
+
+# Transformer from Hugging Face
+git+https://github.com/huggingface/transformers.git
+
+monai
+numpy
+pandas
+matplotlib
+opencv-python
